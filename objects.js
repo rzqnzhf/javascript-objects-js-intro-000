@@ -6,9 +6,9 @@ var playlist = {
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
+  playlist.artistName = songTitle
 }
-
+                      
 
 function removeFromPlaylist() {
   return playlist

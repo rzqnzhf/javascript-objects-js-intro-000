@@ -6,11 +6,12 @@ var playlist = {
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  var stageName = artistName
-  playlist[stageName] = songTitle
+  var stageName = artistName;
+  playlist[stageName] = songTitle;
 }
 
 
 function removeFromPlaylist() {
-  return playlist
+  var stageName = artistName;
+  delete playlist[stageName];
 }

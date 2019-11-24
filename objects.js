@@ -4,9 +4,11 @@ var playlist = {
   slipknot: "A Liar's Funeral"
 }
 
+/*
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle
 }
+*/
 
 function removeFromPlaylist() {
   return playlist

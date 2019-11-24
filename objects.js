@@ -11,7 +11,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 
-function removeFromPlaylist() {
+function removeFromPlaylist(playlist, artistName) {
   var stageName = artistName;
   delete playlist[stageName];
 }
